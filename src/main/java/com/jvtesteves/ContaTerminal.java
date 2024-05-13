@@ -23,7 +23,7 @@ public class ContaTerminal {
 
         // Concatenação das informações
         String mensagem = "Olá " + nomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia +
-                ", conta " + numero + " e seu saldo de R$" + saldo + " já está disponível para saque.";
+                ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.";
 
         // Exibir a mensagem
         System.out.println(mensagem);
